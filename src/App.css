@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+
+body {
+  background-color: #81a3b6;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #81a3b6;
+  border-radius: 50px;
+  background: #81a3b6;
+  box-shadow: 20px 20px 60px #6e8b9b, -20px -20px 60px #94bbd1;
+
+  margin: 30px auto;
+  padding: 30px;
+  width: 350px;
+}
+
+.incomeexpensebox {
+  /* background-color: #fff; */
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.incomeexpensebox > div {
+  flex: 1;
+  text-align: center;
+}
+
+.incomeexpensebox > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.incomebox {
+  color: #229954;
+  font-weight: bold;
+}
+
+.expensebox {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.transactionInput {
+  background-color: #81a3b6;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.btnAddTransaction {
+  background-color: #81a3b6;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #8aaec3, #7493a4);
+  box-shadow: 20px 20px 60px #678291, -20px -20px 60px #84a6b9;
+  padding: 30px;
+  border: none;
+  color: white;
+}
+
+.btnAddTransaction:hover {
+  background-color: #81a3b6;
+  border-radius: 50px;
+  background: #81a3b6;
+  box-shadow: inset 20px 20px 60px #6e8b9b, inset -20px -20px 60px #94bbd1;
+  padding: 30px;
+  border: none;
+  color: #d0d3d4;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  list-style: none;
+}
+
+.money.plus {
+  color: #229954;
+  font-weight: bold;
+}
+
+.money.minus {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.transactionList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btnRemoveTransaction {
+  background-color: #81a3b6;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #8aaec3, #7493a4);
+  box-shadow: 20px 20px 60px #678291, -20px -20px 60px #84a6b9;
+  border: none;
+  color: white;
+}
+
+.btnRemoveTransaction:hover {
+  background-color: #81a3b6;
+  border-radius: 50px;
+  background: #81a3b6;
+  box-shadow: inset 20px 20px 60px #6e8b9b, inset -20px -20px 60px #94bbd1;
+  border: none;
+  color: #d0d3d4;
+}
